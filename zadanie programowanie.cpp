@@ -29,11 +29,7 @@ int main(int argc, char** argv) {
         for(int i = 0 ; i<1000;++i){
 
             file2 >> num;
-            //decnum1 << dec << num;
-            //octnum1 << oct << num;
 
-
-            //<<","<<itoa(num,buff,10)<<endl;
 
             cun1 +=count6(itoa(num,buff,10));
             cun2 +=count6(itoa(num,buff,8));
